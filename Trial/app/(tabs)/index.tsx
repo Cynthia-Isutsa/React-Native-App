@@ -2,7 +2,7 @@ import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 //import {Slot} from "expo-router"
 
-const index = () => {
+const Page = () => {
   return (
     <View style={styles.container}>
       <Text>First Application</Text>
@@ -10,7 +10,7 @@ const index = () => {
   )
 }
 
-export default index
+export default Page
 
 const styles = StyleSheet.create({
   container: {
